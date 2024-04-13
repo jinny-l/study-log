@@ -18,6 +18,6 @@ jobs:
         uses: cflynn07/github-action-til-autoformat-readme@1.2.4
         with:
           description: |
-            매일 공부한 내용을 기록합니다.
+            매일 공부한 내용을 기록합니다. 💪
           list_most_recent: 5 # optional, lists most recent TILS below description
-          date_format: "2020-01-15" # optional, must align to https://golang.org/pkg/time/#Time.Format
+          date_format: "2006-01-02" # optional, must align to https://golang.org/pkg/time/#Time.Format
